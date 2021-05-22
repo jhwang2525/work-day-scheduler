@@ -22,5 +22,4 @@ Acceptance Criteria
 
 Mock-Up
 - The following animation demonstrates the application functionality:
-
-https://github.com/jhwang2525/work-day-scheduler/blob/main/mockup.gif?raw=true
+![Alt text](https://github.com/jhwang2525/work-day-scheduler/blob/main/mockup.gif?raw=true)
