@@ -1,5 +1,7 @@
 **Work Day Scheduler**
 
+Deployed Application URL: https://jhwang2525.github.io/work-day-scheduler/
+
 
 **User Story**
 - AS AN employee with a busy schedule
