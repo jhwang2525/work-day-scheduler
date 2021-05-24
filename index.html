@@ -8,7 +8,6 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -19,102 +18,84 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="Develop/style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h1 class="display-3">Work Day scheduler</h1>
       <p id="currentDay" class="lead"></p>
+      <p>A simple calendar app for scheduling your work day</p>
     </header>
-    <div class="container">
-
-      <!-- Timeblocks go here -->
-      <div id="hour-8" class="row time-block">
-        <div class="col-md-1 hour">8:00am</div>
-
-        <textarea class="col-md-10 description"></textarea>
-
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+    <div class="container" id="scheduler">
+      <div class="row"> 
+        <div class="hour col">
+          9AM
+        </div>
+        <input class="event col-9" type="text" id="9">
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div> 
+      <div class="row">
+        <div class="hour col">
+          10AM
+        </div>
+        <input class="event col-9" type="text" id="10">
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row"> 
+        <div class="hour col">
+          11AM
+        </div>
+        <input class="event col-9" type="text" id="11">
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div> 
+      <div class="row">
+        <div class="hour col">
+          12PM
+        </div>
+        <input class="event col-9" type="text" id="12">
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+     </div>
+      <div class="row">
+        <div class="hour col">
+          1PM
+        </div>
+        <input class="event col-9" type="text" id="13">
+        <button class="saveBtn col"><i class="fas fa-save"></i></button> 
+      </div>
+      <div class="row">
+        <div class="hour col">
+          2PM
+        </div>
+        <input class="event col-9" type="text" id="14">
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="hour col">
+          3PM
+        </div>
+        <input class="event col-9" type="text" id="15">
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="hour col">
+          4PM
+        </div>
+        <input class="event col-9" type="text" id="16">
+        <button class="saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <div class="hour col">
+          5PM
+        </div>
+        <input class="event col-9" type="text" id="17">
+        <button class= "saveBtn col"><i class="fas fa-save"></i></button>
+      </div>
     </div>
-
-    <div id="hour-9" class="row time-block">
-        <div class="col-md-1 hour">9:00am</div>
-       
-        <textarea class="col-md-10 description"></textarea>
-
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
-    </div>
-
-    <div id="hour-10" class="row time-block">
-        <div class="col-md-1 hour">10:00am</div>
-
-        <textarea class="col-md-10 description"></textarea>
-
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
-    </div>
-
-    <div id="hour-11" class="row time-block">
-        <div class="col-md-1 hour">11:00am</div>
-
-        <textarea class="col-md-10 description"></textarea>
-
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
-    </div>
-
-    <div id="hour-12" class="row time-block">
-        <div class="col-md-1 hour">12:00pm</div>
-
-        <textarea class="col-md-10 description"></textarea>
-
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
-    </div>
-
-    <div id="hour-13" class="row time-block">
-        <div class="col-md-1 hour">1:00pm</div>
-
-        <textarea class="col-md-10 description"></textarea>
-
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
-    </div>
-
-    <div id="hour-14" class="row time-block">
-        <div class="col-md-1 hour">2:00pm</div>
-
-        <textarea class="col-md-10 description"></textarea>
-
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
-    </div>
-
-    <div id="hour-15" class="row time-block">
-        <div class="col-md-1 hour">3:00pm</div>
-
-        <textarea class="col-md-10 description"></textarea>
-
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
-    </div>
-
-    <div id="hour-16" class="row time-block">
-        <div class="col-md-1 hour">4:00pm</div>
-
-        <textarea class="col-md-10 description"></textarea>
-
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
-    </div>
-
-    <div id="hour-17" class="row time-block">
-        <div class="col-md-1 hour">5:00pm</div>
-
-        <textarea class="col-md-10 description"></textarea>
-
-        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
-    </div>
-
-
-
+  
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
   </body>
 </html>
